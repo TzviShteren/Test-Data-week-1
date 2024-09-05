@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace DataStructuresExercise
 {
@@ -13,7 +14,6 @@ namespace DataStructuresExercise
         internal defenceStrategiesBalancedModel Value { get; set; }
         internal TreeNode? Left { get; set; }
         internal TreeNode? Right { get; set; }
-        internal int Depth { get; set; }
         internal int Height { get; set; }
         public TreeNode(defenceStrategiesBalancedModel value)
         {
@@ -35,18 +35,15 @@ namespace DataStructuresExercise
             if (node == null)
             {
                 node = new TreeNode(data);
-                node.Depth = 0;
                 node.Height = Height;
                 return node;
             }
             if (data.MinSeverity < node.Value.MinSeverity)
             {
-                node.Depth++; // increases the Depth
                 node.Left = InsertRecursive(node.Left, data, Height + 1);
             }
             else
             {
-                node.Depth++; // increases the Depth
                 node.Right = InsertRecursive(node.Right, data, Height + 1);
             }
             return node;
@@ -71,6 +68,34 @@ namespace DataStructuresExercise
                 PreOrderRecursive(node.Left, "Left");
                 PreOrderRecursive(node.Right, "Right");
             }
+        }
+
+        // search by Severity in O(log(n))
+        public TreeNode? Find(int value) => FindRecursive(_root, value);
+        private TreeNode? FindRecursive(TreeNode? node, int value)
+        {
+            if (node == null)
+                return null;
+            if (node.Value.MinSeverity <= value && node.Value.MaxSeverity + 1 > value)
+                return node;
+            if (value < node.Value.MinSeverity)
+                return FindRecursive(node.Left, value);
+            else
+                return FindRecursive(node.Right, value);
+        }
+
+        // Returns the minimum value
+        public int Min()
+        {
+            if (_root == null)
+                throw new InvalidOperationException("The Tree is empty");
+
+            TreeNode? node = _root;
+            while (node.Left != null)
+            {
+                node = node.Left;
+            }
+            return node.Value.MinSeverity;
         }
     }
 }

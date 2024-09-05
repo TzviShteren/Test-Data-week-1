@@ -12,5 +12,7 @@ namespace DataStructuresExercise.Models
         public int Volume { get; set; }
         public int Sophistication { get; set; }
         public string Target { get; set; }
+
+        public int Severity { get; set; }
     }
 }

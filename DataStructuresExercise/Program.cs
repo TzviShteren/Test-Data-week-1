@@ -1,6 +1,7 @@
 ﻿using DataStructuresExercise;
 using DataStructuresExercise.Models;
 using DataStructuresExercise.Utils;
+using System.Collections.Generic;
 using System.Text.Json;
 
 namespace MyApp
@@ -17,7 +18,7 @@ namespace MyApp
 
             Console.WriteLine("2: Print the tree in the form of a PreOrder Traversal tree:");
 
-            Thread.Sleep(1000);
+           Thread.Sleep(1000);
 
             binaryTree.PreOrderTraversal();
 
@@ -30,15 +31,13 @@ namespace MyApp
             Thread.Sleep(4000);
 
             Console.WriteLine("4: Implementation of attack severity calculation:");
-            // built in Utils/Calculations
+            foreach (var threat in threats)
+                threat.Severity = (threat.Volume * threat.Sophistication) + Calculations.GetTargetValue(threat.Target);
 
             Thread.Sleep(4000);
 
             Console.WriteLine("5: Implementing a protection search method and activating the protections one after the other:");
-            foreach (var threat in threats)
-            {
-                int severity = (threat.Volume * threat.Sophistication) + Calculations.GetTargetValue(threat.Target);
-            }
+            Protections(threats, binaryTree);
         }
         public static DefenceStrategiesBST? JsonToDefenceStrategiesBST(string str)
         {
@@ -76,6 +75,28 @@ namespace MyApp
             }
         }
 
-        
+        // A method of searching for protections and activating the protections one after the other
+        public static void Protections(List<ThreatsModel> threats, DefenceStrategiesBST binaryTree)
+        {
+            int i = 1;
+            foreach (var threat in threats)
+            {
+                TreeNode? node = binaryTree.Find(threat.Severity);
+
+                if (threat.Severity < binaryTree.Min())
+                    Console.WriteLine($"attack {i}: Attack severity is below the threshold. Attack is ignored");
+
+                else if (node == null)
+                    Console.WriteLine($"attack {i}: No suitable defence was found. Brace for impact");
+
+                else 
+                    Console.WriteLine($"attack {i}: type of attack: {threat.ThreatType} => the treatment {string.Join(", ", node.Value.Defenses!)}");
+
+                i++;
+                Thread.Sleep(2000);
+            }
+        }
+
+
     }
 }

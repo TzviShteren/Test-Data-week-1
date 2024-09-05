@@ -1,6 +1,4 @@
-﻿using DataStructuresExercise.Models;
-
-namespace DataStructuresExercise.Utils
+﻿namespace DataStructuresExercise.Utils
 {
     internal static class Calculations
     {
@@ -18,6 +16,5 @@ namespace DataStructuresExercise.Utils
                 "User Credentials" => 20,
                 _ => 5,
             };
-
     }
 }
