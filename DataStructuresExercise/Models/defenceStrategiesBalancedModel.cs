@@ -11,7 +11,6 @@ namespace DataStructuresExercise.Models
     {
         public int MinSeverity { get; set; }
         public int MaxSeverity { get; set; }
-
-        public List<string> Defenses = [];
+        public string[]? Defenses { get; set; }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\Stern\Desktop\Data codekod2\C#\DataStructuresExercise\DataStructuresExercise\bin\Debug\net8.0\DataStructuresExercise.exe
+C:\Users\Stern\Desktop\Data codekod2\C#\DataStructuresExercise\DataStructuresExercise\bin\Debug\net8.0\DataStructuresExercise.deps.json
+C:\Users\Stern\Desktop\Data codekod2\C#\DataStructuresExercise\DataStructuresExercise\bin\Debug\net8.0\DataStructuresExercise.runtimeconfig.json
+C:\Users\Stern\Desktop\Data codekod2\C#\DataStructuresExercise\DataStructuresExercise\bin\Debug\net8.0\DataStructuresExercise.dll
+C:\Users\Stern\Desktop\Data codekod2\C#\DataStructuresExercise\DataStructuresExercise\bin\Debug\net8.0\DataStructuresExercise.pdb
+C:\Users\Stern\Desktop\Data codekod2\C#\DataStructuresExercise\DataStructuresExercise\obj\Debug\net8.0\DataStructuresExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stern\Desktop\Data codekod2\C#\DataStructuresExercise\DataStructuresExercise\obj\Debug\net8.0\DataStructuresExercise.AssemblyInfoInputs.cache
+C:\Users\Stern\Desktop\Data codekod2\C#\DataStructuresExercise\DataStructuresExercise\obj\Debug\net8.0\DataStructuresExercise.AssemblyInfo.cs
+C:\Users\Stern\Desktop\Data codekod2\C#\DataStructuresExercise\DataStructuresExercise\obj\Debug\net8.0\DataStructuresExercise.csproj.CoreCompileInputs.cache
+C:\Users\Stern\Desktop\Data codekod2\C#\DataStructuresExercise\DataStructuresExercise\obj\Debug\net8.0\DataStructuresExercise.sourcelink.json
+C:\Users\Stern\Desktop\Data codekod2\C#\DataStructuresExercise\DataStructuresExercise\obj\Debug\net8.0\DataStructuresExercise.dll
+C:\Users\Stern\Desktop\Data codekod2\C#\DataStructuresExercise\DataStructuresExercise\obj\Debug\net8.0\refint\DataStructuresExercise.dll
+C:\Users\Stern\Desktop\Data codekod2\C#\DataStructuresExercise\DataStructuresExercise\obj\Debug\net8.0\DataStructuresExercise.pdb
+C:\Users\Stern\Desktop\Data codekod2\C#\DataStructuresExercise\DataStructuresExercise\obj\Debug\net8.0\DataStructuresExercise.genruntimeconfig.cache
+C:\Users\Stern\Desktop\Data codekod2\C#\DataStructuresExercise\DataStructuresExercise\obj\Debug\net8.0\ref\DataStructuresExercise.dll

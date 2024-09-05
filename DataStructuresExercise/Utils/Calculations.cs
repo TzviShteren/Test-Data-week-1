@@ -4,10 +4,9 @@ namespace DataStructuresExercise.Utils
 {
     internal static class Calculations
     {
-        public static int CalculationOfSeverity(defenceStrategiesBalancedModel defence)
-        {
-            return defence.MaxSeverity - defence.MinSeverity;
-        }
+        // Code reference from https://stackoverflow.com/questions/3754582/is-there-an-easy-way-to-return-a-string-repeated-x-number-of-times
+        public static string Repeat(string value, int amount) =>
+         string.Concat(Enumerable.Repeat(value, amount));
 
     }
 }

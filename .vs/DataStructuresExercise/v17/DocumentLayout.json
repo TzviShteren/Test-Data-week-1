@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Stern\\Desktop\\Data codekod2\\C#\\DataStructuresExercise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC48E765-36D0-4E62-9BFF-EDDCA2BFC4B6}|DataStructuresExercise\\DataStructuresExercise.csproj|c:\\users\\stern\\desktop\\data codekod2\\c#\\datastructuresexercise\\datastructuresexercise\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC48E765-36D0-4E62-9BFF-EDDCA2BFC4B6}|DataStructuresExercise\\DataStructuresExercise.csproj|solutionrelative:datastructuresexercise\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC48E765-36D0-4E62-9BFF-EDDCA2BFC4B6}|DataStructuresExercise\\DataStructuresExercise.csproj|c:\\users\\stern\\desktop\\data codekod2\\c#\\datastructuresexercise\\datastructuresexercise\\utils\\calculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC48E765-36D0-4E62-9BFF-EDDCA2BFC4B6}|DataStructuresExercise\\DataStructuresExercise.csproj|solutionrelative:datastructuresexercise\\utils\\calculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC48E765-36D0-4E62-9BFF-EDDCA2BFC4B6}|DataStructuresExercise\\DataStructuresExercise.csproj|c:\\users\\stern\\desktop\\data codekod2\\c#\\datastructuresexercise\\datastructuresexercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC48E765-36D0-4E62-9BFF-EDDCA2BFC4B6}|DataStructuresExercise\\DataStructuresExercise.csproj|solutionrelative:datastructuresexercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC48E765-36D0-4E62-9BFF-EDDCA2BFC4B6}|DataStructuresExercise\\DataStructuresExercise.csproj|c:\\users\\stern\\desktop\\data codekod2\\c#\\datastructuresexercise\\datastructuresexercise\\models\\defencestrategiesbalancedmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC48E765-36D0-4E62-9BFF-EDDCA2BFC4B6}|DataStructuresExercise\\DataStructuresExercise.csproj|solutionrelative:datastructuresexercise\\models\\defencestrategiesbalancedmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC48E765-36D0-4E62-9BFF-EDDCA2BFC4B6}|DataStructuresExercise\\DataStructuresExercise.csproj|c:\\users\\stern\\desktop\\data codekod2\\c#\\datastructuresexercise\\datastructuresexercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC48E765-36D0-4E62-9BFF-EDDCA2BFC4B6}|DataStructuresExercise\\DataStructuresExercise.csproj|solutionrelative:datastructuresexercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC48E765-36D0-4E62-9BFF-EDDCA2BFC4B6}|DataStructuresExercise\\DataStructuresExercise.csproj|c:\\users\\stern\\desktop\\data codekod2\\c#\\datastructuresexercise\\datastructuresexercise\\utils\\calculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC48E765-36D0-4E62-9BFF-EDDCA2BFC4B6}|DataStructuresExercise\\DataStructuresExercise.csproj|solutionrelative:datastructuresexercise\\utils\\calculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC48E765-36D0-4E62-9BFF-EDDCA2BFC4B6}|DataStructuresExercise\\DataStructuresExercise.csproj|c:\\users\\stern\\desktop\\data codekod2\\c#\\datastructuresexercise\\datastructuresexercise\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC48E765-36D0-4E62-9BFF-EDDCA2BFC4B6}|DataStructuresExercise\\DataStructuresExercise.csproj|solutionrelative:datastructuresexercise\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 279,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,52 +38,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Calculations.cs",
               "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Data codekod2\\C#\\DataStructuresExercise\\DataStructuresExercise\\Utils\\Calculations.cs",
               "RelativeDocumentMoniker": "DataStructuresExercise\\Utils\\Calculations.cs",
               "ToolTip": "C:\\Users\\Stern\\Desktop\\Data codekod2\\C#\\DataStructuresExercise\\DataStructuresExercise\\Utils\\Calculations.cs",
               "RelativeToolTip": "DataStructuresExercise\\Utils\\Calculations.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T09:28:01.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "BinaryTree.cs",
               "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Data codekod2\\C#\\DataStructuresExercise\\DataStructuresExercise\\BinaryTree.cs",
               "RelativeDocumentMoniker": "DataStructuresExercise\\BinaryTree.cs",
               "ToolTip": "C:\\Users\\Stern\\Desktop\\Data codekod2\\C#\\DataStructuresExercise\\DataStructuresExercise\\BinaryTree.cs",
               "RelativeToolTip": "DataStructuresExercise\\BinaryTree.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAIwBkAAAAsAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAYwEEAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T09:03:05.6Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "defenceStrategiesBalancedModel.cs",
               "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Data codekod2\\C#\\DataStructuresExercise\\DataStructuresExercise\\Models\\defenceStrategiesBalancedModel.cs",
               "RelativeDocumentMoniker": "DataStructuresExercise\\Models\\defenceStrategiesBalancedModel.cs",
               "ToolTip": "C:\\Users\\Stern\\Desktop\\Data codekod2\\C#\\DataStructuresExercise\\DataStructuresExercise\\Models\\defenceStrategiesBalancedModel.cs",
               "RelativeToolTip": "DataStructuresExercise\\Models\\defenceStrategiesBalancedModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T08:37:46.86Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Data codekod2\\C#\\DataStructuresExercise\\DataStructuresExercise\\Program.cs",
               "RelativeDocumentMoniker": "DataStructuresExercise\\Program.cs",
               "ToolTip": "C:\\Users\\Stern\\Desktop\\Data codekod2\\C#\\DataStructuresExercise\\DataStructuresExercise\\Program.cs",
               "RelativeToolTip": "DataStructuresExercise\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T08:18:27.329Z",
               "EditorCaption": ""
