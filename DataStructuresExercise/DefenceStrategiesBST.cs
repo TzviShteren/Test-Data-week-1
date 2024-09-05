@@ -97,5 +97,29 @@ namespace DataStructuresExercise
             }
             return node.Value.MinSeverity;
         }
+
+
+        // O(!n)
+        public void InOrderTraversal()
+        {
+            if (_root == null) { return; }
+            Console.WriteLine("Tree structure with left/right child distinctions:");
+            InOrderRecursive(_root, "Root"); // For starters get Root
+        }
+        private void InOrderRecursive(TreeNode? node, string direction)
+        {
+            // if root return an empty string and if not return this sign |--
+            string ifRootDoNotPrint = direction == "Root" ? "" : "|--";
+            if (node != null)
+            {
+                string spacing = Calculations.Repeat(" ", node.Height * 3); // Getting how far it should be, Double 3 to be more beauti.
+                InOrderRecursive(node.Left, "Left");
+                Console.WriteLine($"{spacing}{ifRootDoNotPrint}{direction}: [{node!.Value.MinSeverity}-{node.Value.MaxSeverity}] " +
+                    $"Defenses: {string.Join(", ", node.Value.Defenses!)}");
+                InOrderRecursive(node.Right, "Right");
+            }
+        }
+
+
     }
 }

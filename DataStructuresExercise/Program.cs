@@ -18,7 +18,7 @@ namespace MyApp
 
             Console.WriteLine("2: Print the tree in the form of a PreOrder Traversal tree:");
 
-           Thread.Sleep(1000);
+            Thread.Sleep(1000);
 
             binaryTree.PreOrderTraversal();
 
@@ -39,6 +39,8 @@ namespace MyApp
             Console.WriteLine("5: Implementing a protection search method and activating the protections one after the other:");
             Protections(threats, binaryTree);
         }
+
+        //conversion Json To DefenceStrategiesBST => O(1)
         public static DefenceStrategiesBST? JsonToDefenceStrategiesBST(string str)
         {
             try
@@ -59,6 +61,8 @@ namespace MyApp
                 return null;
             }
         }
+
+        //conversion Json To List of ThreatsModel => O(1)
         public static List<ThreatsModel>? JsonToListThreatsModel(string str)
         {
             try
@@ -96,7 +100,5 @@ namespace MyApp
                 Thread.Sleep(2000);
             }
         }
-
-
     }
 }
