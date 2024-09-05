@@ -13,10 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CC48E765-36D0-4E62-9BFF-EDDCA2BFC4B6}|DataStructuresExercise\\DataStructuresExercise.csproj|c:\\users\\stern\\desktop\\data codekod2\\c#\\datastructuresexercise\\datastructuresexercise\\utils\\calculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC48E765-36D0-4E62-9BFF-EDDCA2BFC4B6}|DataStructuresExercise\\DataStructuresExercise.csproj|solutionrelative:datastructuresexercise\\utils\\calculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC48E765-36D0-4E62-9BFF-EDDCA2BFC4B6}|DataStructuresExercise\\DataStructuresExercise.csproj|c:\\users\\stern\\desktop\\data codekod2\\c#\\datastructuresexercise\\datastructuresexercise\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC48E765-36D0-4E62-9BFF-EDDCA2BFC4B6}|DataStructuresExercise\\DataStructuresExercise.csproj|solutionrelative:datastructuresexercise\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,16 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 279,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -44,23 +32,18 @@
               "RelativeDocumentMoniker": "DataStructuresExercise\\Utils\\Calculations.cs",
               "ToolTip": "C:\\Users\\Stern\\Desktop\\Data codekod2\\C#\\DataStructuresExercise\\DataStructuresExercise\\Utils\\Calculations.cs",
               "RelativeToolTip": "DataStructuresExercise\\Utils\\Calculations.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T09:28:01.945Z",
+              "WhenOpened": "2024-09-05T12:12:55.617Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BinaryTree.cs",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Data codekod2\\C#\\DataStructuresExercise\\DataStructuresExercise\\BinaryTree.cs",
-              "RelativeDocumentMoniker": "DataStructuresExercise\\BinaryTree.cs",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Data codekod2\\C#\\DataStructuresExercise\\DataStructuresExercise\\BinaryTree.cs",
-              "RelativeToolTip": "DataStructuresExercise\\BinaryTree.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAYwEEAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T09:03:05.6Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -83,7 +66,7 @@
               "RelativeDocumentMoniker": "DataStructuresExercise\\Program.cs",
               "ToolTip": "C:\\Users\\Stern\\Desktop\\Data codekod2\\C#\\DataStructuresExercise\\DataStructuresExercise\\Program.cs",
               "RelativeToolTip": "DataStructuresExercise\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBcAAAANAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T08:18:27.329Z",
               "EditorCaption": ""

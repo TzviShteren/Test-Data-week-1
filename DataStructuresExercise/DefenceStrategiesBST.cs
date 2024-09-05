@@ -22,15 +22,16 @@ namespace DataStructuresExercise
             Right = null;
         }
     }
-    internal class BinaryTree
+    internal class DefenceStrategiesBST
     {
         public TreeNode? _root;
-        public BinaryTree() => _root = null;
+        public DefenceStrategiesBST() => _root = null;
 
+        // O(!n)
         public void Insert(defenceStrategiesBalancedModel data) => _root = InsertRecursive(_root, data, 0);
-
         private TreeNode InsertRecursive(TreeNode? node, defenceStrategiesBalancedModel data, int Height)
         {
+            // if the first
             if (node == null)
             {
                 node = new TreeNode(data);
@@ -40,31 +41,33 @@ namespace DataStructuresExercise
             }
             if (data.MinSeverity < node.Value.MinSeverity)
             {
-                node.Depth++;
+                node.Depth++; // increases the Depth
                 node.Left = InsertRecursive(node.Left, data, Height + 1);
             }
             else
             {
-                node.Depth++;
+                node.Depth++; // increases the Depth
                 node.Right = InsertRecursive(node.Right, data, Height + 1);
             }
             return node;
         }
 
+        // O(!n)
         public void PreOrderTraversal()
         {
             if (_root == null) { return ; }
             Console.WriteLine("Tree structure with left/right child distinctions:");
-            PreOrderRecursive(_root, "Root");
+            PreOrderRecursive(_root, "Root"); // For starters get Root
         }
         private void PreOrderRecursive(TreeNode? node, string direction)
         {
-            string ifRootDoNotPrint = direction == "Root" ? "" : "|--";
+            // if root return an empty string and if not return this sign |--
+            string ifRootDoNotPrint = direction == "Root" ? "" : "|--"; 
             if (node != null)
             {
-                string spacing = Calculations.Repeat(" ", node.Height);
+                string spacing = Calculations.Repeat(" ", node.Height); // Getting how far it should be
                 Console.WriteLine($"{spacing}{ifRootDoNotPrint}{direction}: [{node!.Value.MinSeverity}-{node.Value.MaxSeverity}] " +
-                    $"Defenses: {string.Join(", ", node.Value.Defenses)}");
+                    $"Defenses: {string.Join(", ", node.Value.Defenses!)}");
                 PreOrderRecursive(node.Left, "Left");
                 PreOrderRecursive(node.Right, "Right");
             }
